@@ -59,5 +59,5 @@ INSERT INTO moneda (codigo, nombre) VALUES
 ON CONFLICT DO NOTHING;
 
 INSERT INTO material (nombre) VALUES
-  ('Plástico'), ('Metal'), ('Madera'), ('Vidrio'), ('Cerámica'), ('Goma')
+  ('Plástico'), ('Metal'), ('Madera'), ('Vidrio'), ('Textil')
 ON CONFLICT DO NOTHING;
